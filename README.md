@@ -3,7 +3,7 @@
 ## 1. Command
 1. 將拍好的照片放到 ./cameraAll/kinect/
 2. 執行下方command
-3. ./camera_matrix/kinect 中各相機 yml 的 Extrinsic 即為所要。 
+3. ./camera_matrix/kinect 中各相機 yml 的 Extrinsic 即為所要。 (目前只有 Extrinsic 可以轉 OpenGL 格式)
 ```python=
     python detection.py -i ./cameraAll/kinect/ -o ./camera_matrix/kinect -t DICT_5X5_100 -a setting.json -res 1920x1080 -thres 100 -opengl true
 ```
